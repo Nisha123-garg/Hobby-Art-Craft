@@ -1,0 +1,300 @@
+html
+{
+	height: 100%;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font: normal .80em 'trebuchat ms',arial, sans-serif, courier new;
+	background: black url() repeat;
+	color: black;
+	font-size: 15px;
+}
+div.back{
+	margin-bottom: auto;
+	margin-top:auto;
+	margin-right: 100px;
+	margin-left: 100px;
+    background-color: white;    
+}
+.cont
+{
+	/*height:3500px;|*/ 
+}
+
+ div.content
+ {
+ 	height: 200px;
+ 	width: auto;
+ 	background-color: lightpink;
+ }
+ .headings
+{
+	color: deeppink;
+	text-shadow:  1px 1px 2px black, 0 0 20px indigo;
+	font-family: georgia;
+	font-size: 70px;
+	text-align: center;
+}
+.headings1
+{
+	color: deeppink;
+	text-shadow:  1px 1px 2px black, 0 0 20px indigo;
+	font-family: georgia;
+	font-size: 40px;
+	text-align: center;
+}
+.hed
+{
+	font-size: 30px;
+	font-family: cambria;
+	color: purple;
+	text-align:right;
+	margin-right: 15px;
+}
+.solid
+{
+	border-bottom: hidden;
+	border-top: 10px solid purple;
+	border-right: hidden;
+	border-left: hidden;
+	width: 100%;
+	margin-left: auto;
+	/*margin-right: auto;*/
+}
+.links
+{
+    float: left;
+	
+}
+/*
+hr
+{
+display: block;
+unicode-bidi: isolate;
+-webkit-margin-before:0.5em;
+-webkit-margin-after:0.5em;
+-webkit-margin-start:auto;
+-webkit-margin-end:auto;
+}*/
+ul{
+	list-style-type: none;
+	margin: 2px;
+	padding: 2px;
+	overflow: hidden;
+	background-color:black; 
+}
+li
+{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: green;
+}
+td.contentbg
+{
+	background-color: white;
+	
+}
+td[attributes style]
+{
+	vertical-align: top;
+}
+td,th{
+	display: table-cell;
+}
+.hgb
+{
+background-color: cadetblue;
+border-top: 10px solid #690550;
+border-bottom: 10px solid #690550;
+width: 950px;
+height: 70px;
+font-size: 35px;
+align-content: center;
+vertical-align: center;
+}
+h2
+{
+	font-family:sans-serif;
+	font-size: 250%;
+	color: white;
+}
+h2
+{
+	display: block;
+	-webkit-margin-before:0.67em;
+	-webkit-margin-after:0.67em;
+	-webkit-margin-start:0px;
+	-webkit-margin-end:0px;
+	font-weight: bold;
+}
+h2
+{
+	text-align: -webkit-center;
+	display: block;
+}
+.sidebar{
+    padding: 0 5px 10px 5px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    border: 2px solid brown;
+    background-color: pink;
+    width: 180px;
+    float: left; 
+    /*text-align: top;
+    margin-top:auto;*/
+}
+ div.paragraph
+{
+	font-family: verdana;
+	font-size: 13px;
+	color: deeppink;
+	float: left;
+	margin-left: 5px;
+}
+.solid1
+{
+	border-top: 2px solid purple;
+}
+.right
+{
+  float: left;
+  width: 300px;
+  background-color: pink;
+  border: 1px solid brown;
+  height: 300px;
+  position: absolute;
+}
+.color
+{
+	color: red;
+	font-size: 20px;
+	text-align: center;
+}
+p:hover
+{
+	background-color: pink;
+}
+.head
+{
+	color: purple;
+	font-size: 20px;
+	text-align: center;
+}
+.button
+{
+	height: 18px;
+	width: 90px;
+    border: 2px solid black
+}
+.images
+{
+	height:500px;
+	width: 480px;
+    border: 6px solid pink;
+    border-style: double;
+    margin-left: 60px;    
+}
+.images:hover
+{
+	transform: scale(1.5);
+}
+.img
+{
+	height: 170px;
+	width: 200px;
+	float: left;
+	border: 8px solid white;
+}
+.text_design
+{
+	color: purple;
+	font-size: 14px;
+	background-color: white;
+}
+.clr
+{
+    color: red;
+    font-size: 20px;
+	text-align: left;	
+}
+.more_ideas
+{
+	color: purple; 
+	text-align: center;
+    background-color: pink;
+    height: 25px; 
+    width:900px;  
+    font-size: 20px; 
+    border-top: 2px solid purple; 
+	border-bottom: 2px  solid purple;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.more_ideas_image
+{
+	height: 250px;
+	width: 250px;
+	border: 10px solid white;
+	float: left;
+}
+#text
+{
+	margin-right: 20px;
+}
+#text1
+{
+	margin-left: 50px;
+}
+.other_images
+{
+	height: 200px;
+	width: 180px;
+	border-radius: 20PX;
+	padding: 3PX;
+}
+#head_ing
+{
+	color: red;
+	font-size: 20px; 
+	margin-left: 130px;
+}
+#crafts_image
+{
+	height: 600px;
+	width: 670px;
+}
+#candle_images
+{
+	height: 450px; 
+	width: 580px; 
+	margin-left:100px;
+}
+#length
+{
+ font-size: 50px;
+}
+.box_size
+{
+ border: 2px solid green;
+ margin-left: 200px;
+ margin-right: 200px;
+}
+#footer
+{
+	margin-top: 200px;
+	text-align: center;
+}
